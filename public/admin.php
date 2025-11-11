@@ -118,7 +118,7 @@ require_once '../module/dbconnect.php';
             <a href="daftar_peserta.php" class="nav-link">Peserta</a>
           </li>
           <li class="nav-item">
-            <a href="update.php" class="nav-link">Kemajuan</a>
+            <a href="progress_input.php" class="nav-link">Kemajuan</a>
           </li>
         </ul>
 
@@ -153,7 +153,7 @@ require_once '../module/dbconnect.php';
           </div>
         </div>
 
-        <div class="card text-center update" onclick="location.href='validasi.php'">
+        <div class="card text-center update" onclick="location.href='../admin/progress_input.php'">
           <div class="card-body">
             <i class="fa-solid fa-chart-line"></i>
             <h5 class="card-title">Update Kemajuan & Kekurangan</h5>
